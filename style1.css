@@ -1,0 +1,73 @@
+body {
+    font-family: Calibri;
+    margin: 0;
+    width: 100vw;
+}
+body > div:after {clear: both;}
+/* Header*/
+.header {
+    background-color: #999999;
+    color: black;
+    float: left;
+    margin: 0;
+    padding: 1em 0;
+    width: 100%;
+}
+.header > div {display: inline-block;}
+.header > div:first-child {position: absolute;}
+.header > div:last-child {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+/* Navigasi */
+.nav {
+    background-color: #C0C0C0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.nav > a {
+    color: blue;
+    display: inline-block;
+    font: bold;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+.nav > a:hover {
+    background-color:#CCCCCC;
+}
+
+/*Isi*/
+.container {
+    height: 80vh;
+    background-color: #CCCCCC;
+    float: left;
+    width: 100%;
+}
+.container > div:last-child {
+    float: right;
+}
+.container div img {
+    position: absolute;
+    margin-top: 50px;
+}
+.container > div {
+    padding-top: 50px;
+}
+.daftar input {
+    margin: 0.5em;
+}
+.daftar button {
+    margin-left: 50px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #999999;
+    color: black;
+    margin: auto;
+    padding: 2em;
+    text-align: left;
+}
